@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/menu_IMG_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+    <TextView
+        android:id="@+id/menu_LBL_Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obstacle Race Game "
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#1F378A"
+        android:textSize="30dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_Records_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_LBL_Welcome"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#4FB8AD"
+        android:text="Records LIST"
+        android:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_fast_buttons_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_BTN_Records_list"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#4FB8AD"
+        android:text="Fast Buttons Game"
+        android:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_slow_buttons_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_BTN_fast_buttons_game"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#4FB8AD"
+        android:text="Slow Buttons Game"
+        android:visibility="visible" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_sensor_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_BTN_slow_buttons_game"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#4FB8AD"
+        android:text="Sensor Game"
+        android:visibility="visible" />
+
+
+        />
+
+
+</RelativeLayout>
